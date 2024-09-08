@@ -80,10 +80,81 @@ img {
 }
 
 body {
-  width: 1170px;
+  width: 1920px;
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: Montserrat, Helvetica, sans-serif;
 }
 
-/* dlobal */
+/*** global ******************/
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.list-reset {
+  margin: 0;
+  list-style-type: none;
+}
+
+.section {
+  padding: 0 75px;
+}
+
+
+/*** header *****************/
+
+.header {
+  margin: 0;
+}
+
+.header__container {
+  /* min-height: 100px; */
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0px 5px 40px 0px #0000001A;
+}
+
+.nav {
+align-items: center;
+}
+
+.header__logo {
+  padding: 14px 0px 14px 75px;
+}
+
+.nav__list {
+  align-items: center;
+  margin-right: 75px;
+
+}
+.nav__item:not(:last-child) {
+margin-right: 85px;
+}
+
+.nav__link {
+  font: 600 16px / 22px Montserrat;
+}
+
+.nav__icon-search {
+}
+
+/*** hero  ************************/
+
+.hero__content {
+  width: 100%;
+  padding: 100px 80px;
+}
+
+.hero__title {
+  margin: 0;
+  width: 837px;
+
+  font: 800 70px / 85px Montserrat;
+}
